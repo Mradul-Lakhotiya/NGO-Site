@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/nishaktjansociet/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp about_us.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp donate.html $DEPLOYPATH
+    - /bin/cp what_we_do.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
